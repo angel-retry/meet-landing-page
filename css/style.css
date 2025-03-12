@@ -270,6 +270,7 @@ footer button {
   .image-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
+    gap: 32px;
   }
 
   .footer-description-container {
@@ -336,7 +337,9 @@ footer button {
   }
 
   .features-section {
-    margin: 56px 80px 72px 80px;
+    margin: 56px auto 72px auto;
+    padding: 0;
+    max-width: 1200px;
   }
 
   .description-container-title p {
@@ -357,6 +360,8 @@ footer button {
     flex-direction: row;
     align-items: start;
     gap: 32px;
+
+    margin: 112px auto;
   }
 
   .footer-description-container h3 {
