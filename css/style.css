@@ -276,9 +276,25 @@ footer button {
     max-width: 504px;
     margin: 64px auto;
   }
+
+  .footer-description {
+    background-image: linear-gradient(
+        hsl(192, 37%, 48%, 0.9),
+        hsl(192, 37%, 48%, 0.9)
+      ),
+      url("../assets/tablet/image-footer.jpg");
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 64px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
   .hero-image_mobile {
     display: none;
   }
@@ -323,6 +339,18 @@ footer button {
     margin: 56px 80px 72px 80px;
   }
 
+  .description-container-title p {
+    font-size: 16px;
+  }
+
+  .description-container-title h3 {
+    font-size: 40px;
+  }
+
+  .description-container-text {
+    font-size: 18px;
+  }
+
   .footer-description-container {
     max-width: 1120px;
     display: flex;
@@ -345,5 +373,13 @@ footer button {
 
   .footer-description-container button {
     margin-left: auto;
+  }
+
+  .footer-description {
+    background-image: linear-gradient(
+        hsl(192, 37%, 48%, 0.9),
+        hsl(192, 37%, 48%, 0.9)
+      ),
+      url("../assets/desktop/image-footer.jpg");
   }
 }
